@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
 
-import { jsx, css } from "@emotion/react";
+import { css } from "@emotion/react";
 
 const Heading = (props) => {
     return ( <h2 css={styles} >{props.text}</h2> );
